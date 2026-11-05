@@ -1,0 +1,28 @@
+{
+  "name": "casmik-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Camsik ReCommerce Platform Backend API Server & Database Engine",
+  "scripts": {
+    "dev": "next dev -p 4028",
+    "build": "next build",
+    "start": "next start -p 4028",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/ssr": "0.6.1",
+    "@supabase/supabase-js": "2.49.4",
+    "imagekit": "^6.0.0",
+    "mongodb": "^7.6.0",
+    "next": "15.5.18",
+    "react": "19.0.3",
+    "react-dom": "19.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "19.0.3",
+    "@types/react-dom": "19.0.3",
+    "typescript": "^5"
+  }
+}
+

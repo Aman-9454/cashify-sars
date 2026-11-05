@@ -1,0 +1,88 @@
+class FallbackCategories {
+  // Static data commented out as requested. Real data is loaded dynamically via API.
+  /*
+  static final List<Map<String, dynamic>> _staticData = [
+    {
+      'id': 'cat-dslr',
+      'name': 'DSLR & Mirrorless',
+      'slug': 'sell-old-dslr-camera',
+      'icon': '📷',
+      'image': 'assets/images/categories/dslr.png',
+      'description': 'Sell Canon, Nikon, Sony, LUMIX, Fujifilm cameras for top cash with doorstep pickup.',
+      'brandCount': 5,
+      'modelCount': 45,
+    },
+    {
+      'id': 'cat-lens',
+      'name': 'Camera Lenses',
+      'slug': 'sell-old-dslr-mirrorless-lens',
+      'icon': '🔍',
+      'image': 'assets/images/categories/lens.png',
+      'description': 'Instant valuation for prime, zoom, macro, G Master, RF & Z-mount camera lenses.',
+      'brandCount': 8,
+      'modelCount': 60,
+    },
+    {
+      'id': 'cat-video-camera',
+      'name': 'Video Cameras',
+      'slug': 'sell-old-video-camera',
+      'icon': '📹',
+      'image': 'assets/images/categories/video.png',
+      'description': 'Sell 4K broadcast camcorders, cinematic cameras from Canon, Sony & Panasonic.',
+      'brandCount': 3,
+      'modelCount': 20,
+    },
+    {
+      'id': 'cat-action-camera',
+      'name': 'Action Cameras',
+      'slug': 'sell-old-action-camera',
+      'icon': '🎥',
+      'image': 'assets/images/categories/action.png',
+      'description': 'Get top resale value for GoPro Hero, DJI Osmo Pocket & Insta360 cameras.',
+      'brandCount': 3,
+      'modelCount': 25,
+    },
+    {
+      'id': 'cat-gimbal',
+      'name': 'Gimbals & Stabilizers',
+      'slug': 'sell-old-gimbal',
+      'icon': '🕹️',
+      'image': 'assets/images/categories/gimbal.png',
+      'description': 'Turn your DJI Ronin, Zhiyun Crane & FeiyuTech 3-axis gimbals into instant money.',
+      'brandCount': 3,
+      'modelCount': 18,
+    },
+    {
+      'id': 'cat-smartphone',
+      'name': 'Smartphones',
+      'slug': 'sell-old-smartphones',
+      'icon': '📱',
+      'image': 'assets/images/categories/smartphone.png',
+      'description': 'Sell Apple iPhone, Samsung Galaxy, Google Pixel & OnePlus for instant doorstep cash.',
+      'brandCount': 5,
+      'modelCount': 35,
+    },
+    {
+      'id': 'cat-laptop',
+      'name': 'Laptops',
+      'slug': 'sell-old-laptops',
+      'icon': '💻',
+      'image': 'assets/images/categories/laptop.png',
+      'description': 'Instant quote for Apple MacBook Pro/Air, Dell XPS, HP Spectre & Lenovo ThinkPad.',
+      'brandCount': 5,
+      'modelCount': 25,
+    },
+    {
+      'id': 'cat-tablet',
+      'name': 'Tablets & iPads',
+      'slug': 'sell-old-tablets',
+      'icon': '📟',
+      'image': 'assets/images/categories/tablet.png',
+      'description': 'Top resale value for Apple iPad Pro, iPad Air, Samsung Galaxy Tab & Lenovo Tablets.',
+      'brandCount': 4,
+      'modelCount': 20,
+    },
+  ];
+  */
+  static final List<Map<String, dynamic>> data = const [];
+}

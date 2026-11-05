@@ -1,0 +1,42 @@
+[
+  {
+    "id": "partner-46819",
+    "name": "Ekkdnd",
+    "storeName": "Jdjdbdjbdhfhfb",
+    "phone": "9868689565",
+    "email": "amantest@gmail.com",
+    "city": "Didind",
+    "state": "Up",
+    "address": "shududhudodbch",
+    "pinCodes": [
+      "466598"
+    ],
+    "categories": [
+      "cat-dslr",
+      "cat-lens",
+      "cat-video-camera"
+    ],
+    "status": "active",
+    "rating": 5,
+    "totalOrders": 0,
+    "completedOrders": 0,
+    "totalEarnings": 0,
+    "pendingPayout": 0,
+    "availableBalance": 0,
+    "joinedAt": "2026-10-23",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&q=80",
+    "commission": 5,
+    "commissionType": "percentage",
+    "password": "123456",
+    "documents": {
+      "pan": true,
+      "panNumber": "CHCHY1234F",
+      "gst": false,
+      "gstNumber": "",
+      "bankProof": true,
+      "accountNumber": "689809869009869890",
+      "ifscCode": "HDFC0001234",
+      "verified": false
+    }
+  }
+]

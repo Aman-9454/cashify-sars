@@ -1,0 +1,15 @@
+[
+  { "pincode": "401107", "city": "Mumbai / Mira-Bhayandar", "active": true, "addedAt": "2026-10-25T12:00:00.000Z" },
+  { "pincode": "400001", "city": "Mumbai South / Fort", "active": true, "addedAt": "2026-10-25T12:00:00.000Z" },
+  { "pincode": "400050", "city": "Mumbai / Bandra West", "active": true, "addedAt": "2026-10-25T12:00:00.000Z" },
+  { "pincode": "400053", "city": "Mumbai / Andheri West", "active": true, "addedAt": "2026-10-25T12:00:00.000Z" },
+  { "pincode": "400058", "city": "Mumbai / Andheri East", "active": true, "addedAt": "2026-10-25T12:00:00.000Z" },
+  { "pincode": "400072", "city": "Mumbai / Powai", "active": true, "addedAt": "2026-10-25T12:00:00.000Z" },
+  { "pincode": "400092", "city": "Mumbai / Borivali West", "active": true, "addedAt": "2026-10-25T12:00:00.000Z" },
+  { "pincode": "110001", "city": "Delhi / Connaught Place", "active": true, "addedAt": "2026-10-25T12:00:00.000Z" },
+  { "pincode": "110020", "city": "Delhi / Okhla", "active": true, "addedAt": "2026-10-25T12:00:00.000Z" },
+  { "pincode": "560001", "city": "Bengaluru / MG Road", "active": true, "addedAt": "2026-10-25T12:00:00.000Z" },
+  { "pincode": "560034", "city": "Bengaluru / Koramangala", "active": true, "addedAt": "2026-10-25T12:00:00.000Z" },
+  { "pincode": "500001", "city": "Hyderabad / Abids", "active": true, "addedAt": "2026-10-25T12:00:00.000Z" },
+  { "pincode": "600001", "city": "Chennai / George Town", "active": true, "addedAt": "2026-10-25T12:00:00.000Z" }
+]

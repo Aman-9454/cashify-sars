@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+  --primary: #16a34a;
+  --primary-foreground: #ffffff;
+  --primary-light: #22c55e;
+  --primary-50: #f0fdf4;
+  --primary-100: #dcfce7;
+  --secondary: #0f172a;
+  --secondary-foreground: #ffffff;
+  --accent: #22c55e;
+  --accent-foreground: #ffffff;
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+  --border: #e2e8f0;
+  --input: #e2e8f0;
+  --ring: #16a34a;
+  --radius: 12px;
+  --font-sans: var(--font-plus-jakarta-sans), sans-serif;
+  --surface: #f8fafc;
+  --surface-elevated: #ffffff;
+  --green-gradient-start: #15803d;
+  --green-gradient-end: #22c55e;
+  --warning: #f59e0b;
+  --warning-foreground: #ffffff;
+  --danger: #ef4444;
+  --danger-foreground: #ffffff;
+  --info: #3b82f6;
+  --info-foreground: #ffffff;
+  --shadow-sm: 0 1px 3px 0 rgba(0,0,0,0.08), 0 1px 2px -1px rgba(0,0,0,0.06);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.08), 0 2px 4px -2px rgba(0,0,0,0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -4px rgba(0,0,0,0.06);
+  --shadow-green: 0 4px 14px 0 rgba(22, 163, 74, 0.25);
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    border-color: var(--border);
+  }
+  html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+    width: 100%;
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+  }
+}
+
+@layer utilities {
+  .font-tabular {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum";
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+  .gradient-green {
+    background: linear-gradient(135deg, var(--green-gradient-start) 0%, var(--green-gradient-end) 100%);
+  }
+  .gradient-hero {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 40%, #ffffff 100%);
+  }
+  .shadow-green {
+    box-shadow: var(--shadow-green);
+  }
+  .shadow-card {
+    box-shadow: var(--shadow-md);
+  }
+  .shadow-sm-custom {
+    box-shadow: var(--shadow-sm);
+  }
+  .price-increase {
+    animation: priceUp 0.4s ease-out;
+  }
+  .price-decrease {
+    animation: priceDown 0.4s ease-out;
+  }
+  .price-pulse {
+    animation: pricePulse 0.5s ease-out;
+  }
+  .fade-in {
+    animation: fadeIn 0.3s ease-out;
+  }
+  .slide-up {
+    animation: slideUp 0.3s ease-out;
+  }
+  .step-line-active {
+    background: linear-gradient(90deg, var(--primary) 0%, var(--primary-light) 100%);
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .hero-dots {
+    background-image: radial-gradient(circle, #d1fae5 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+  .stat-number {
+    font-size: clamp(1.5rem, 3vw, 2.25rem);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.1;
+  }
+  .admin-sidebar-transition {
+    transition: width 300ms ease, transform 300ms ease;
+  }
+  .card-hover {
+    transition: transform 150ms ease, box-shadow 150ms ease;
+  }
+  .card-hover:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+  }
+  .btn-press {
+    transition: transform 150ms ease, box-shadow 150ms ease;
+  }
+  .btn-press:active {
+    transform: scale(0.97);
+  }
+}
+
+@keyframes priceUp {
+  0% { color: var(--primary); transform: scale(1.05); }
+  100% { color: var(--foreground); transform: scale(1); }
+}
+@keyframes priceDown {
+  0% { color: var(--danger); transform: scale(0.97); }
+  100% { color: var(--foreground); transform: scale(1); }
+}
+@keyframes pricePulse {
+  0% { background-color: var(--primary-100); }
+  100% { background-color: transparent; }
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.skeleton {
+  background: linear-gradient(90deg, #f1f5f9 25%, #e2e8f0 50%, #f1f5f9 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 8px;
+}
